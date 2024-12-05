@@ -1,0 +1,123 @@
+.shipping {
+    background: #000000;
+    height: 38px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon-arrow {
+    width: 1.5rem;
+}
+
+.img-grid img {
+    width: 5em;
+}
+
+.subtitle {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3em;
+}
+
+.about-usa:hover {
+    background: #ff0404;
+}
+
+.about-usa:hover {
+    background: #ff0404;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-footer {
+    height: auto;
+}
+
+.hover-text-danger {
+    background: #ff0000;
+}
+
+.hovering:hover {
+    text-decoration: underline !important;
+    color: white !important;
+}
+
+.text-base {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-blacky {
+    background: #000 !important;
+}
+
+.icon {
+    width: 14px;
+    transition: width margin-right 0.2s ease;
+}
+
+.shipping:hover .icon {
+    width: 20px;
+    transition: width margin-right 0.2s ease;
+    margin-right: -6px;
+}
+
+nav {
+    height: 90px;
+    position: sticky !important;
+    top: 0px
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important;
+    transition: text-decoration 0.3s e;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .contact-logo {
+        /* Darker background for small screens */
+        display: none;
+    }
+}
+
+.fixed-top {
+    position: sticky !important;
+    top: 0px;
+}
+
+.navbar-collapse {
+    background-color: #000000;
+}
+
+@media (max-width: 576px) {
+    .about-founder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 355px;
+        margin: auto;
+    }
+}
+
+.about-usa {
+    width: 150px;
+    height: 60px;
+}
+
+  .navbar-nav .nav-item .nav-link {
+    color: white; 
+    font-size: 18px; 
+    padding: 10px; 
+    text-align: center; 
+  }
+  
+
+  
